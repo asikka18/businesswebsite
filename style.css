@@ -1,0 +1,144 @@
+html, body{
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 0;
+}
+
+body {
+        background-color: rgb(4, 37, 9);
+        padding-top: 10px;
+        font-family: 'Georgia', serif;
+}
+
+div.background {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("Images/trees.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: rgb(255, 0, 0);
+        height: 700px;
+        background-position: center;
+}
+
+div.nav {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100px;
+        background-color: rgb(4, 37, 9);
+        text-align: center;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Georgia', serif;
+}
+
+div.nav .logo {
+        position: absolute;
+        left: 10px;
+}
+
+div.nav img {
+        height: 100px;
+}
+
+div.nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 30px;  
+}
+
+.nav a:hover {
+        transform: scale(1.1);
+        transition: transform 0.2s ease-in-out;
+}
+
+section {
+        margin-top: 20px;
+        padding: 50px;
+        color:rgb(255, 255, 255);
+}
+
+div.footer {
+        position: relative;
+        width: 100%;
+        padding-top: 1px;
+        z-index: 1000;
+}
+
+div.footer .logo {
+        position: absolute;
+        left: 10px;
+}
+
+div.footer img {
+        height: 100px;
+}
+
+div.footer a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 50px;  
+}
+
+.footer a:hover {
+        transform: scale(1.1);
+        transition: transform 0.2s ease-in-out;
+}
+
+.table-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+}
+
+table {
+        border-collapse: collapse;
+        text-align: left;
+        width: 80%;
+        max-width: 90%;
+}
+
+table, td {
+        border: none;
+}
+
+.headshot {
+        width: 200px;
+        height: 200px;
+        border-radius: 75%;
+        object-fit: cover;
+}
+
+td {
+        padding: 15px;
+        font-size: 30px;
+        color: white;
+        vertical-align: middle;
+}
+
+td img {
+        width: 200px;
+        height: 200px;
+        border-radius: 75%;
+}
+
+.form-element {
+        margin-bottom: 8px;
+        font-size: 22px;
+        text-align: center;
+}
+
+label {
+        width: 300px;
+        font-weight: 700;
+        color: white;
+}
